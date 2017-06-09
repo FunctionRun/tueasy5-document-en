@@ -3,7 +3,6 @@
 * [User Manual](README.md)
 * [1. Login](chapter1.md)
 * [2. Visual and Analysis Application](可视分析应用.md)
-  * * \* 
 * [2.1 Create applications](创建可视分析应用.md)
 * [2.2 Create dataset](22-创建普通数据源.md)
   * [2.2.1 Connect datasource](221-连接数据库.md)
@@ -47,7 +46,7 @@
   * [2.4.1.3 Echars](2413-echars.md)
 * [2.5 上传应用缩略图](25-上传应用缩略图.md)
 * [2.6 上传应用资源](26-上传应用资源.md)
-* [2.7 归档](#)  
+* [2.7 归档](#)
 
 * [2.8 复制](#)
 
