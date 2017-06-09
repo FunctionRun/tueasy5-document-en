@@ -1,8 +1,6 @@
 # Welcome to use HYSIGHT
 
-
-
-> 图易是一款大数据可视分析平台，专注于利用大数据分析技术和计算机视觉技术为用户提供极致酷炫、直观清晰的可视分析应用，帮助用户在运营数据、分析业务的过程中能够快速分析、精准决策。
+> HYSIGHT is a big data visualization analysis platform, focus on using big data analysis technology and computer vision technology to provide users with the ultimate cool and intuitive visual analysis applications. It helps users to analyze and make accurate decisions in the process of operating data and business analysis.
 
 ### 以下是使用图易生成的图易大脑-智警应用
 
