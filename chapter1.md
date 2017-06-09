@@ -1,6 +1,6 @@
 # Login
 
-> 登录帐号、密码需要向产品经理申请
+> Account and password need to be applied from the product manager
 
 ![](/assets/login.png)
 
