@@ -7,7 +7,7 @@
   * [2.2 Create dataset](22-创建普通数据源.md)
     * [2.2.1 Connect datasource](221-连接数据库.md)
     * [2.2.2 Select table](222-选择分析主题表.md)
-    * [2.2.2.1 修改已设置数据表](2221-修改已设置数据表.md)
+    * [2.2.2.1 Update selected table](2221-修改已设置数据表.md)
     * [2.2.3 Create view](223-创建分析视图.md)
       * [2.2.3.1 View handle](2231-分析视图相关操作.md)
     * [2.2.4 Update view column ](224-视图字段编辑.md)
