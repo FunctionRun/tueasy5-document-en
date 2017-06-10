@@ -4,7 +4,7 @@
 
 ## Bind data
 
-* 用户绑定数据前，需要事先保存页面
+* Save the page before data binding
 
 ![](/assets/withTriangleNav01.png)
 
