@@ -1,13 +1,13 @@
----
+
 Common Configuration
 ---
 
 
-> ## User Configuration
+## User Configuration
 
-* Click parameters editing button to enter the developer mode configuration, click the setting button to enter the user configuration panel
+Click parameters editing button to enter the developer mode configuration, click the setting button to enter the user configuration panel
 
-> ![](/assets/lineBar01.png)
+![](/assets/lineBar01.png)
 
 ### Chart common configuration：
 
@@ -23,7 +23,7 @@ Common Configuration
 
 ##### Chart Boundary Configuration\(null\)
 
-##### 
+
 
 ##### Chart X axis and Y axis Configuration
 
