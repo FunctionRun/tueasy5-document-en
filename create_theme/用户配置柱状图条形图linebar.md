@@ -10,7 +10,7 @@
 
 ### Chart common configuration：
 
-\#\#\#\#\#Color configuration: Adaptive theme style, or user-defined
+##### Color configuration: Adaptive theme style, or user-defined
 
 > Size configuration \(only if the custom size option is ticked\): graphics series index: select the graphics series require size configuration;
 >
