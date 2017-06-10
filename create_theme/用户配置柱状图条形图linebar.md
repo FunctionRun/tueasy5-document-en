@@ -10,7 +10,7 @@
 
 ### Chart common configuration：
 
-**颜色配置、尺寸配置**
+Color configuration: Adaptive theme style, or user-defined
 
 > 颜色配置：可以进行主题风格自适应，也可以用户自定配色
 >
