@@ -26,9 +26,7 @@
 
 ##### Chart X axis and Y axis Configuration
 
-
-
-> 显示选项：是否显示坐标轴和网格线或网格区域。以下所有配置均在显示选项为勾选状态下有效
+> Display options: Whether show axes and grid area or lines
 >
 > 刻度值：勾选状态下显示，并可对刻度值大小、字体、颜色和样式进行配置
 >
