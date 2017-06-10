@@ -1,9 +1,9 @@
 # Summary
 
 * [User Manual](README.md)
-* [1. Login](chapter1.md)
-* [2. Visual and Analysis Application](可视分析应用.md)
-* [3. Create applications](创建可视分析应用.md)
+* [1. Login](1-登录.md)
+* [2. Visual and Analysis Application](2-可视分析应用.md)
+* [3. Create applications](3-创建可视分析应用.md)
 * [4. Create dataset](22-创建普通数据源.md)
   * [4.1. Connect datasource](221-连接数据库.md)
   * [4.2. Select table](222-选择分析主题表.md)
