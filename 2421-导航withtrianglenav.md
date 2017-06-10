@@ -48,80 +48,72 @@
 ### 参数配置列表
 
 ```
-{
-'currentSelect': 0,
-'automatic': {
-'start': false,
-'interval': 2000
-},
-'maxNumInOneLine': 100,
-'series': [
-{
-'type': 'withTriangle',
-'data': [
-{
-'key': 'create',
-'name': '创业'
-},
-{
-'key': 'map',
-'name': '地图'
-},
-{
-'key': 'police',
-'name': '交警'
-},
-{
-'key': 'managerPolice',
-'name': '城管'
-},
-{
-'key': 'fire',
-'name': '消防'
-}
-],
-'textStyle': {
-'normal': {
-'fontSize': '18px',
-'color': '#667688'
-},
-'emphasis': {
-'fontSize': '18px',
-'color': '#fff'
-}
-},
-'borderStyle': {
-'normal': {
-'borderWidth': '1px',
-'borderStyle': 'solid',
-'borderColor': '#fff',
-'borderRadius': '1px'
-}
-},
-'backgroundStyle': {
-'normal': {
-'backgroundColor': 'rgba(239, 241, 243, 1.0)',
-'backgroundSize': 'cover'
-},
-'emphasis': {
-'backgroundColor': 'rgba(102, 118, 136, 1.0)',
-'backgroundSize': 'cover'
-}
-},
-'tiangleStyle': {
-'normal': {
-'border': 'none'
-},
-'emphasis': {
-'borderWidth': '10px',
-'borderStyle': 'solid',
-'borderTopColor': '#ffa84e',
-'borderRightColor': '#ffa84e'
-}
-}
-}
-],
-'itemGap': '30',
+	{
+    'currentSelect': 0,
+    'automatic': {
+        'start': false,
+        'interval': 2000
+    },
+    'maxNumInOneLine': 100,
+    'series': [{
+        'type': 'withTriangle',
+        'data': [{
+            'key': 'create',
+            'name': '创业'
+        }, {
+            'key': 'map',
+            'name': '地图'
+        }, {
+            'key': 'police',
+            'name': '交警'
+        }, {
+            'key': 'managerPolice',
+            'name': '城管'
+        }, {
+            'key': 'fire',
+            'name': '消防'
+        }],
+        'textStyle': {
+            'normal': {
+                'fontSize': '18px',
+                'color': '#667688'
+            },
+            'emphasis': {
+                'fontSize': '18px',
+                'color': '#fff'
+            }
+        },
+        'borderStyle': {
+            'normal': {
+                'borderWidth': '1px',
+                'borderStyle': 'solid',
+                'borderColor': '#fff',
+                'borderRadius': '1px'
+            }
+        },
+        'backgroundStyle': {
+            'normal': {
+                'backgroundColor': 'rgba(239, 241, 243, 1.0)',
+                'backgroundSize': 'cover'
+            },
+            'emphasis': {
+                'backgroundColor': 'rgba(102, 118, 136, 1.0)',
+                'backgroundSize': 'cover'
+            }
+        },
+        'tiangleStyle': {
+            'normal': {
+                'border': 'none'
+            },
+            'emphasis': {
+                'borderWidth': '10px',
+                'borderStyle': 'solid',
+                'borderTopColor': '#ffa84e',
+                'borderRightColor': '#ffa84e'
+            }
+        }
+    }],
+    'itemGap': '30',
 }
 ```
 
