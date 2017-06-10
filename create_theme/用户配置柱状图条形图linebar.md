@@ -1,6 +1,7 @@
-# 柱状图/条形图\_lineBar
-
 ---
+Common Configuration
+---
+
 
 > ## User Configuration
 
@@ -28,19 +29,19 @@
 
 > Display options: Whether show axes and grid area or lines
 >
-> 刻度值：勾选状态下显示，并可对刻度值大小、字体、颜色和样式进行配置
+> Scale interval: It is visible only if the display check-box is ticked. The value size, font, color and style can be configured.
 >
-> 主轴线、刻度线、网格线：勾选状态下显示，并可对它们的颜色、宽度和样式进行配置
+> Main axis, the scale, the grid: It is visible only if the display check-box is ticked. The color, width and style can be configured.
 >
-> 网格区域：勾选状态下显示，并可对可对网格的透明度和间隔颜色进行配置
+> Grid area: It is visible only if the display check-box is ticked. The transparency and interval color can be configured.
 
 ![](/assets/lineBar03.png)
 
-* 图表的标签配置：分为选中状态和未选中状态
+##### Chart label configuration: Selected and unselected
 
-> 显示选项：是否显示标签。以下所有配置均在显示选项为勾选状态下有效
+> Display options: whether label is visible or not. All of the following configuration are effective in the condition of the display check-box is ticked.
 >
-> 标签配置：可以对标签的位置、标签文本大小、字体、颜色和样式进行配置
+> Label configuration: its Location, size of the label text, font, color, and style can be configured.
 
 ![](/assets/lineBar04.png)
 
