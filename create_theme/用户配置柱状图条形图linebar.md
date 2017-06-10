@@ -10,7 +10,7 @@
 
 ### Chart common configuration：
 
-#### \#\#\#\#\#Color configuration: Adaptive theme style, or user-defined
+\#\#\#\#\#Color configuration: Adaptive theme style, or user-defined
 
 > Size configuration \(only if the custom size option is ticked\): graphics series index: select the graphics series require size configuration;
 >
@@ -20,7 +20,7 @@
 
 ![](/assets/lineBar02.jpg)
 
-*  Chart Boundary Configuration
+* Chart Boundary Configuration
 * 图表的X轴、Y轴配置
 
 > 显示选项：是否显示坐标轴和网格线或网格区域。以下所有配置均在显示选项为勾选状态下有效
