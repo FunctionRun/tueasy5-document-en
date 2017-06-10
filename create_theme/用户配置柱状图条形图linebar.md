@@ -12,7 +12,11 @@
 
 Color configuration: Adaptive theme style, or user-defined
 
-> Size configuration \(only if the custom size option is ticked\): graphics series index: select the graphics series require size configuration; Constant size: Y axis width means the longitudinal width of a linebar; Variable size – minimum; Variable size – maximum; emphasize size
+> Size configuration \(only if the custom size option is ticked\): graphics series index: select the graphics series require size configuration; 
+>
+> Constant size: Y axis width means the longitudinal width of a linebar; 
+>
+> Variable size – minimum; Variable size – maximum; emphasize size;
 
 ![](/assets/lineBar02.jpg)
 
