@@ -19,7 +19,7 @@
   * [5.5 修改图表公共样式](2414-柱状图条形图visualtickbar.md)
   * [5.6 修改图表自定义样式](24141-用户配置柱状图条形图linebar.md)
   * [5.7 添加控件](242-添加控件.md)
-    * [2.4.2.1 导航\_withTriangleNav](2421-导航withtrianglenav.md)
+    * [5.7.1 导航\_withTriangleNav](2421-导航withtrianglenav.md)
       * [2.4.2.1.1 开发模式](24211-开发模式.md)
     * [2.4.2.2 导航\_linesNav](2422-导航linesnav.md)
     * [2.4.2.3 文本框\_Text](2423-文本框.md)
