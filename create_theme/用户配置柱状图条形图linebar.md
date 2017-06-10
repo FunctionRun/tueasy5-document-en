@@ -8,7 +8,7 @@
 
 > ![](/assets/lineBar01.png)
 
-* 图表的通用配置：
+### Chart common configuration：
 
 **颜色配置、尺寸配置**
 
