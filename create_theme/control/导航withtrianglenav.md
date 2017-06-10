@@ -8,42 +8,38 @@
 
 ![](/assets/withTriangleNav01.png)
 
-* 该控件所绑定的数据为文本数据，导航栏中会列出选中维度中的数据内容并删除重复内容
+* The data for _withTriangleNav is text data. The data in the selected dimensions will be listed and the duplicate content are deleted.
 
-* 对绑定的数据进行一些其他配置包括：筛选数据条数、定时刷新时间、推送数据接口
+* Other configuration for the binding data: Filter data article number, refresh time regularly，push data interface
 
-* 绑定数据结束后，进行数据配置保存，返回控件编辑界面
+* After data binding, save the configuration, back to control editing page.
 
 ![](/assets/withTriangleNav02.png)
 
-> ## 用户配置
+## User Configuration
 
-* 点击编辑参数按钮，默认进入开发模式参数配置，点击设置按钮进入用户配置面板
+* Click parameters editing button to enter the developing mode configuration, click the setting button to enter the user configuration panel
 
 ![](/assets/withTriangleNav03.png)
 
-* 控件的未选中状态配置：文本设置、背景设置、边框设置
+* The Control configuration of unselected status: text, background, border.
 
 ![](/assets/withTriangleNav04.png)
 
-> 注：
+> Note：
 >
-> 1.当边框勾选项为选中状态，可进行边框设置。
+> 1.The border can be edited, only if the border check-box is ticked。
 >
-> 2.该控件边框设置中的圆角设置为禁用。
+> 2.The control round corner is set to be disabled.
 
-* 控件的选中状态配置
+* Configuration of the selected status
 
 ![](/assets/withTriangleNav05.png)
 
-> 注：三角形长度设置（标6）是指等腰直角三角形的直角边长度设定，该值可改变三角形标志大小。
+> Note: Triangle length configuration (6) refers to the length set of the leg of isosceles triangle, the value can change the Triangle.
 
 
-
-> ## 开发者配置
-
->
-## 开发模式
+# 开发者配置
 
 ### 参数配置列表
 
@@ -117,12 +113,12 @@
 }
 ```
 
-### 参数字段说明
+### Description
 <table border="1">
 <tr>
-<th width="15%">配置项</th>
-<th width="50%">功能/描述</th>
-<th>可选参数</th>
+<th width="15%"> Property </th>
+<th width="50%"> Description </th>
+<th>Seletions</th>
 </tr>
 <tr>
 <td>currentSelect | Number</td>
