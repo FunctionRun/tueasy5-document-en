@@ -12,9 +12,7 @@
 
 Color configuration: Adaptive theme style, or user-defined
 
-> 颜色配置：可以进行主题风格自适应，也可以用户自定配色
->
-> 尺寸配置（当且仅当自定义尺寸为勾选状态有效）：图形系列索引：选择需要进行尺寸配置的图形系列；常量尺寸：Y轴的域宽，即条形图的纵向宽度；变量尺寸-最小值：变量尺寸-最大值：强调尺寸：
+> Size configuration \(only if the custom size option is ticked\): graphics series index: select the graphics series require size configuration; Constant size: Y axis width means the longitudinal width of a linebar; Variable size – minimum; Variable size – maximum; emphasize size
 
 ![](/assets/lineBar02.jpg)
 
