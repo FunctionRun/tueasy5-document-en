@@ -16,7 +16,7 @@
   * [配置图表数据](create_theme\配置图表数据.md)
   * [配置规则](create_theme\配置规则.md)
   * [修改图表样式](create_theme\修改图表样式.md)
-  * [修改图表公共样式](create_theme\柱状图条形图visualtickbar.md)
+  * [修改图表公共样式](create_theme\图表公共样式.md)
   * [修改图表自定义样式](create_theme\用户配置柱状图条形图linebar.md)
   * [添加控件](create_theme\添加控件.md)
     * [导航\(withTriangleNav\)](create_theme\control\导航withtrianglenav.md)
