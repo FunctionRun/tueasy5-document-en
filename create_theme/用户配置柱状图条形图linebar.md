@@ -4,7 +4,7 @@
 
 > ## User Configuration
 
-* 点击编辑参数按钮，默认进入开发模式参数配置，点击设置按钮进入用户配置面板
+* Click parameters editing button to enter the developer mode configuration, click the setting button to enter the user configuration panel
 
 > ![](/assets/lineBar01.png)
 
