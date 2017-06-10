@@ -22,7 +22,11 @@
 
 ##### Chart Boundary Configuration\(null\)
 
-* 图表的X轴、Y轴配置
+##### 
+
+##### Chart X axis and Y axis Configuration
+
+
 
 > 显示选项：是否显示坐标轴和网格线或网格区域。以下所有配置均在显示选项为勾选状态下有效
 >
