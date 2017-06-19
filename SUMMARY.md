@@ -16,7 +16,6 @@
   * [Set chart dataset](create_theme\配置图表数据.md) 
     * [Bar](create_theme\charts\配置柱状图数据.md)
     * [Line](create_theme\charts\配置折线图数据.md)   
-  * [Dataset rules](create_theme\配置规则.md)
   * [Set chart style](create_theme\修改图表样式.md)
   * [Set the common style](create_theme\图表公共样式.md)
   * [Set the custom style](create_theme\用户配置柱状图条形图linebar.md)
