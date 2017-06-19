@@ -2,9 +2,9 @@
 
 ---
 
-> ## 开发模式
+## Code Model
 
-### 参数配置列表
+### API
 
 ```
 {
@@ -18,19 +18,45 @@
 }
 ```
 
-### 参数字段说明
+### Description
 
-| 配置项 | 类型 | 必填 | 默认值 | 可选参数 | 功能/描述 |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| rtsp | Bool | √ | false |  | 播放的视频是否支持rtsp\(实时流协议\) |
-| playState | String | √ | play | pause、play | 初始化时视频的播放状态。pause视频暂停播放，play视频播放 |
-| muted | Bool | √ | false |  | 是否播放音频 |
-| videoSrc | String | √ |  |  | 视频播放地址 |
-| videoStyle | Object |  |  |  | 视频的样式 |
+<table border="1">
+	<tr>
+		<th width="15%"> Property </th>
+		<th width="30%"> Description </th>
+		<th> Value </th>
+	</tr>
+	<tr>
+		<td> rtsp | Bool </td>
+		<td>Whether or not to support Real Time Streaming Protocol</td>
+		<td>false</td>
+	</tr>
+	<tr>
+		<td> playState | String </td>
+		<td>y	Player state of the initialization</td>
+		<td>play (pause、play)</td>
+	</tr>
+	<tr>
+		<td> muted | Bool </td>
+		<td>Whether or not to play audio</td>
+		<td>false</td>
+	</tr>
+	<tr>
+		<td> videoSrc | String </td>
+		<td>Url of a video or song to play</td>
+		<td> '../../../public/videos/testVideo.mp4' </td>
+	</tr>
+	<tr>
+		<td> videoStyle | Object </td>
+		<td>Style of the player </td>
+		<td><pre>
+			{
+				'width': '20px'
+			}
+		</pre></td>
+	</tr>
+</table>
 
-> 注：
->
-> * videoStyle中的属性支持CSS3中的样式属性，命名采用驼峰命名方式，用户可按照规则添加其他视频样式
 
 
 

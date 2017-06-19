@@ -2,9 +2,9 @@
 
 ---
 
-> ## 开发模式
+## Code Model
 
-### 参数配置列表
+### API
 
 ```
 {
@@ -53,31 +53,71 @@
 }
 ```
 
-### 参数字段说明
+### Description
 
-| 配置项 | 类型 | 必填 | 默认值 | 可选参数 | 功能/备注 |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| type | String | √ | Marquee |  | 控件类型——Marquee跑马灯，不可修改 |
-| series | Array\(Object\) | √ |  |  | 跑马灯控件中的数据项 |
-| series\[0\].name | String | √ |  |  | 数据文本内容，可以重复 |
-| series\[0\].value | String | √ |  |  | 数据唯一标识，不可重复 |
-| categoryGap | String | √ | 20px |  | 数据条之间的间距 |
-| itemGap | Sting | √ | 10px |  | 一条数据的数据项之间的间距 |
-| speedTime | Number | √ | 20 |  | 速率-时间，单位毫秒 |
-| speedDistance | String | √ | 2px |  | 速率-距离 |
-| itemStyle | Object | √ |  |  | 跑马灯控件的样式 |
-| itemStyle.normal | Object | √ |  |  | 跑马灯控件的样式 |
-| itemStyle.normal.fontSize | String | √ | 20px | 支持CSS3中font-size的参数值 | 跑马灯控件的文本大小 |
-| itemStyle.normal.color | String | √ | \#c1c1c1 | 支持CSS3中颜色的参数值，包括Color Name\(颜色名称\)、HEX、RGB、RGBA、HSL、HSLA、transparent | 跑马灯控件的文本颜色 |
-| itemStyle.normal.background | String | √ | \#eff1f3 | 支持CSS3中background的所有参数值 | 跑马灯控件的背景样式 |
-| itemStyle.normal.paddingLeft | String | √ | 5px |  | 跑马灯控件的左内边距 |
+<table border="1" >
+    <tr>
+        <th width="15%"> Property </th>
+        <th width="45%"> Description </th>
+        <th> Value </th>
+    </tr>
+    <tr>
+        <td>type | String</td>
+        <td>Type of Component</td>
+        <td>Marquee</td>
+    </tr>
+    <tr>
+        <td>series | Array[Object]</td>
+        <td>	Data of the component </td>
+        <td> <pre>
+            [
+                {
+                    'name': '人员密度',
+                    'value': 'personIdentity', //Uniquely identification of data, unrepeatable
+                }
+            ]
+        </pre> </td>
+    </tr>
+    <tr>
+        <td>categoryGap | String </td>
+        <td>Gap between the items </td>
+        <td> 20px |  5% </td>
+    </tr>
+    <tr>
+        <td>itemGap | Sting </td>
+        <td>Gap between text in items </td>
+        <td> 5px |  1% </td>
+    </tr>
+    <tr>
+        <td>speedTime | Number </td>
+        <td>Animate fresh time (unit is ms)</td>
+        <td> 20 </td>
+    </tr>
+    <tr>
+        <td>speedDistance | String </td>
+        <td>Animation moved at a time  </td>
+        <td> 2px </td>
+    </tr>
+    <tr>
+        <td>itemStyle.normal | Object</td>
+        <td>Item style </td>
+        <td><pre>
+            
+            {
+                'fontSize': '20px',  
+                'color': '#c1c1c1',  
+                'background': '#eff1f3',  
+                'paddingLeft': '5px'  
+            }
 
-> 注：
+        </pre></td>
+    </tr>
+
+</table>
+
+> Notes：
 >
-> * 跑马灯尚未绑定数据时，可以对series\[0\].data进行编辑；跑马灯绑定数据后，series会自动生成相应信息，可根据相应需求进行数据改动
-> * 跑马灯的滑动速率由speedTime和speedDistance决定，单位时间内\(speedTime\)跑马灯走过的像素\(speedDistance\)
-> * itemStyle.normal中的属性支持CSS3中的样式属性，命名采用驼峰命名方式，用户可按照规则添加其他跑马灯样式
-> * 对于categoryGap和itemGap的区别如下图所示：
+> Difference between  categoryGap and itemGap like this:
 
 ![](/assets/marquee01.png)
 

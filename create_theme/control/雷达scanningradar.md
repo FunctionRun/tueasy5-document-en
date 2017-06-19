@@ -2,9 +2,9 @@
 
 ---
 
-> ## 开发模式
+## Code Model
 
-### 参数配置列表
+### API
 
 ```
 {
@@ -35,22 +35,76 @@
 }
 ```
 
-### 参数字段说明
+### Description
 
-| 配置项 | 类型 | 必填 | 默认值 | 可选参数 | 功能/描述 |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| scanningRadar | Object | √ |  |  | 雷达底图样式 |
-| scanningRadar.splitLine | Object | √ |  |  | 雷达底图圆环样式 |
-| scanningRadar.splitLine.show | Bool | √ | true |  | 是否显示雷达底图圆环 |
-| scanningRadar.splitLine.lineStyle | Object | √ |  |  | 雷达底图圆环线样式 |
-| scanningRadar.splitLine.lineStyle.stroke | String | √ | \#0afea4 |  | 雷达底图圆环线颜色 |
-| scanningRadar.axisLine | Object |  |  |  | 雷达底图辅助线 |
-| scanningRadar.axisLine.show | Bool | √ | true |  | 是否显示雷达底图辅助线 |
-| scanningRadar.axisLine.lineStyle | Object | √ |  |  | 雷达底图辅助线样式 |
-| scanningRadar.axisLine.lineStyle.stroke | String | √ | \#0afea4 |  | 雷达底图辅助线颜色 |
-| series | Array\(Object\) | √ |  |  | 雷达扫描片配色样式 |
-| series\[0\].type | String | √ | scanningRadar |  | 控件类型——scanningRadar雷达，不可修改 |
-| series\[0\].colors | String | √ | 'white','\#10a7ba','white' |  | 雷达扫描片配色组 |
-
-
-
+<table border="1">
+    <tr>
+       <th width="15%"> Property </th>
+		<th width="30%">Description</th>
+		<th> Value </th>
+    </tr>
+    <tr>
+        <td> scanningRadar | Object </td>
+        <td>Background style of the radar</td>
+        <td> </td>
+    </tr>
+    <tr>
+        <td> scanningRadar.splitLine | Object </td>
+        <td>Ring style of the radar background</td>
+        <td> </td>
+    </tr>
+    <tr>
+        <td> scanningRadar.splitLine.show | Bool</td>
+        <td>	Whether or not to show the ring</td>
+        <td>true</td>
+    </tr>
+    <tr>
+        <td> scanningRadar.splitLine.lineStyle | Object</td>
+        <td>Line style of the ring</td>
+        <td><pre>
+{
+    'stroke': '#0afea4'
+}
+        </pre></td>
+    </tr>
+    <tr>
+        <td>scanningRadar.axisLine | Object </td>
+        <td>Axis line of the radar</td>
+        <td> </td>
+    </tr>
+    <tr>
+        <td>scanningRadar.axisLine.show | Bool </td>
+        <td>Whether or not to show axis line</td>
+        <td>true</td>
+    </tr>
+    <tr>
+        <td>scanningRadar.axisLine.lineStyle | Object </td>
+        <td>Style of axis line</td>
+        <td><pre>
+{
+    'stroke': '#0afea4'
+}
+        </pre></td>
+    </tr>
+    <tr>
+        <td>series | Array(Object) </td>
+        <td> Color of theme </td>
+        <td> </td>
+    </tr>
+    <tr>
+        <td>series[0].type | String </td>
+        <td> Type of Component </td>
+        <td>scanningRadar</td>
+    </tr>
+    <tr>
+        <td>series[0].colors | String </td>
+        <td>Color of theme</td>
+        <td><pre>
+[
+    'white',
+    '#10a7ba',
+    'white'
+]
+        </pre></td>
+    </tr>
+</table>

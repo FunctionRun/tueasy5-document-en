@@ -2,9 +2,9 @@
 
 ---
 
-> ## 开发模式
+## Code Model
 
-### 参数配置列表
+### API
 
 ```
 {
@@ -99,63 +99,269 @@
 }
 ```
 
-### 参数字段说明
+### Description
+
+<table border="1">
+    <tr>
+        <th width="30%">Property</th>
+   <th width="30%">Description</th>
+   <th> value </th>
+    </tr>
+    <tr>
+        <td> clock | Object  </td>
+        <td>Style of clock </td>
+        <td> </td>
+    </tr>
+    <tr>
+        <td>clock.clockAxis | Object  </td>
+        <td>Style of scale line </td>
+        <td> </td>
+    </tr>
+    <tr>
+        <td>clock.clockAxis.axisLine | Object </td>
+        <td>Style of circle line</td>
+        <td> </td>
+    </tr>
+    <tr>
+        <td>clock.clockAxis.axisLine.show | Bool  </td>
+        <td>Whether or not to show circle line </td>
+        <td>true</td>
+    </tr>
+    <tr>
+        <td>clock.clockAxis.axisLine.lineStyle | Object </td>
+        <td>Style of circle line </td>
+        <td><pre>
+    {
+        'stroke': '#5a9cc7'
+    }
+        </pre></td>
+    </tr>
+    <tr>
+        <td>clock.clockAxis.axisTick | Object  </td>
+        <td>Style of scale line</td>
+        <td> </td>
+    </tr>
+    <tr>
+        <td>clock.clockAxis.axisTick.show | Bool </td>
+        <td>Whether or not to show the scale line </td>
+        <td>true</td>
+    </tr>
+    <tr>
+        <td>clock.clockAxis.axisTick.lineStyle | Object </td>
+        <td>The style of the scale line </td>
+        <td><pre>
+    {
+        'stroke': '#5a9cc7'
+    }
+        </pre></td>
+    </tr>
+    <tr>
+        <td>clock.clockAxis.axisText | Object </td>
+        <td>Style of number </td>
+        <td> </td>
+    </tr>
+    <tr>
+        <td>clock.clockAxis.axisText.textGap | String </td>
+        <td>Gap between number and circle line </td>
+        <td>'5px'</td>
+    </tr>
+    <tr>
+        <td>clock.clockAxis.axisText.textStyle | Object </td>
+        <td>Text style of number </td>
+        <td><pre>
+    {
+        'stroke': '#5a9cc7'
+    }
+        </pre></td>
+    </tr>
+    <tr>
+        <td>clock.outerCircle | Object  </td>
+        <td>Style of outer circle</td>
+        <td> </td>
+    </tr>
+    <tr>
+        <td>clock.outerCircle.show | Bool </td>
+        <td>Whether or not to show the outer circle </td>
+        <td>true</td>
+    </tr>
+    <tr>
+        <td>clock.outerCircle.lineStyle | Object </td>
+        <td>	The style of the outer circle line </td>
+        <td><pre>
+    {
+        'stroke': '#5a9cc7'
+    }
+        </pre></td>
+    </tr>
+    <tr>
+        <td>clock.middleCircle | Object </td>
+        <td>Style of middle circle </td>
+        <td> </td>
+    </tr>
+    <tr>
+        <td>clock.middleCircle.show | Bool </td>
+        <td>Whether or not to show the middle circle </td>
+        <td>true</td>
+    </tr>
+    <tr>
+        <td>clock.middleCircle.lineStyle | Object </td>
+        <td>	The style of the middle circle line </td>
+        <td><pre>
+    {
+        'stroke': '#5a9cc7'
+    }
+        </pre></td>
+    </tr>
+    <tr>
+        <td>clock.innerCircle | Object </td>
+        <td>Style of inner circle </td>
+        <td> </td>
+    </tr>
+    <tr>
+        <td>clock.innerCircle.show | Bool </td>
+        <td>Whether or not to show inner circle </td>
+        <td>true</td>
+    </tr>
+    <tr>
+        <td>clock.innerCircle.lineStyle | Object </td>
+        <td>Style of inner circle line </td>
+        <td><pre>
+    {
+        'stroke': '#5a9cc7'
+    }
+        </pre></td>
+    </tr>
+    <tr>
+        <td>clock.hand | Object </td>
+        <td>Style of hand </td>
+        <td> </td>
+    </tr>
+    <tr>
+        <td>clock.hand.clockHourHand | Object </td>
+        <td>Color of hour hand</td>
+        <td> </td>
+    </tr>
+    <tr>
+        <td>clock.hand.clockHourHand.handStyle | Object </td>
+        <td>Style of hour handle </td>
+        <td><pre>
+{
+    'fill': '#5a9cc7',
+    'stroke': '#5a9cc7'
+}
+        </pre></td>
+    </tr>
+    <tr>
+        <td>clock.hand.clockHourHand.lineStyle | Object </td>
+        <td>Color of the rest part of hour handle </td>
+        <td><pre>
+{
+    'stroke': '#5a9cc7'
+}
+        </pre></td>
+    </tr>
+    <tr>
+        <td>clock.hand.clockMinuteHand | Object </td>
+        <td>	Style of minute hand </td>
+        <td> </td>
+    </tr>
+    <tr>
+        <td>clock.hand.clockMinuteHand.handStyle | Object </td>
+        <td>Style of minute handle </td>
+        <td><pre>
+{
+    'fill': '#5a9cc7',
+    'stroke': '#5a9cc7'
+}
+        </pre></td>
+    </tr>
+    <tr>
+        <td>clock.hand.clockMinuteHand.lineStyle | Object </td>
+        <td>Color of the rest part of minute handle </td>
+        <td><pre>
+{
+    'fill': '#5a9cc7'
+}
+        </pre></td>
+    </tr>
+    <tr>
+        <td>clock.hand.clockSecondHand | Object </td>
+        <td>Style of second hand </td>
+        <td> </td>
+    </tr>
+    <tr>
+        <td>clock.hand.clockSecondHand.handStyle | Object </td>
+        <td>Style of second handle </td>
+        <td><pre>
+{
+    'fill': '#5a9cc7'
+}
+        </pre></td>
+    </tr>
+    <tr>
+        <td>clock.hand.clockSecondHand.lineStyle | Object </td>
+        <td> Color of the rest part of second handle
+ </td>
+        <td><pre>
+{
+    'fill': '#5a9cc7'
+}
+        </pre></td>
+    </tr>
+    <tr>
+        <td> clock.aloneArc | Object </td>
+        <td>Single arc to decorate the clock</td>
+        <td> </td>
+    </tr>
+    <tr>
+        <td>clock.aloneArc.show | Bool </td>
+        <td>	Whether or not to show the single arc </td>
+        <td>true</td>
+    </tr>
+    <tr>
+        <td>clock.aloneArc.lineStyle | Object </td>
+        <td>Style of the single arc </td>
+        <td><pre>
+{
+    'fill': '#5a9cc7',
+    'stroke': '#5a9cc7'
+}
+        </pre></td>
+    </tr>
+    <tr>
+        <td>clock.symmetryArc | Object </td>
+        <td>Symmetrical arcs to decorate the clock </td>
+        <td> </td>
+    </tr>
+    <tr>
+        <td>clock.symmetryArc.show | Bool </td>
+        <td>Whether or not to show the symmetrical arcs </td>
+        <td>true</td>
+    </tr>
+    <tr>
+        <td>clock.symmetryArc.lineStyle | Object </td>
+        <td>Style of the symmetrical arcs </td>
+        <td><pre>
+{
+    'fill': '#5a9cc7',
+    'stroke': '#5a9cc7'
+}
+        </pre></td>
+    </tr>
+    <tr>
+        <td> series | Array[Object]</td>
+        <td> Data series</td>
+        <td> </td>
+    </tr>
+    <tr>
+        <td> series[0].type | String</td>
+        <td> Type of Component</td>
+        <td>'PointerClock'</td>
+    </tr>
+</table>
 
 ![](/assets/pointerClock01.png)
 
-| 配置项 | 类型 | 必填 | 默认值 | 可选参数 | 功能/备注 |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| clock | Object | √ |  |  | 钟表样式 |
-| clock.clockAxis | Object | √ |  |  | 钟表刻度辅助样式 |
-| clock.clockAxis.axisLine | Object | √ |  |  | 钟表刻度辅助圆线样式 |
-| clock.clockAxis.axisLine.show | Bool | √ | true |  | 是否显示钟表刻度辅助圆线 |
-| clock.clockAxis.axisLine.lineStyle | Object | √ |  |  | 钟表刻度辅助圆线样式 |
-| clock.clockAxis.axisLine.lineStyle.stroke | String | √ | \#5a9cc7 | 支持CSS3中颜色的参数值，包括Color Name\(颜色名称\)、HEX、RGB、RGBA、HSL、HSLA、transparent | 钟表刻度辅助圆线颜色 |
-| clock.clockAxis.axisTick | Object | √ |  |  | 钟表的辅助刻度线样式 |
-| clock.clockAxis.axisTick.show | Bool | √ | true |  | 是否显示钟表的辅助刻度线 |
-| clock.clockAxis.axisTick.lineStyle | Object | √ |  |  | 钟表的辅助刻度线样式 |
-| clock.clockAxis.axisTick.lineStyle.stroke | String | √ | \#5a9cc7 | 支持CSS3中颜色的参数值，包括Color Name\(颜色名称\)、HEX、RGB、RGBA、HSL、HSLA、transparent | 钟表的辅助刻度线颜色 |
-| clock.clockAxis.axisText | Object | √ |  |  | 钟表的辅助数字盘样式 |
-| clock.clockAxis.axisText.textGap | String | √ | 5px |  | 钟表的辅助数字盘与钟表中间圆边框的间距 |
-| clock.clockAxis.axisText.textStyle | Object | √ |  |  | 钟表的辅助数字盘数字样式 |
-| clock.clockAxis.axisText.textStyle.stroke | String | √ | \#5a9cc7 | 支持CSS3中颜色的参数值，包括Color Name\(颜色名称\)、HEX、RGB、RGBA、HSL、HSLA、transparent | 钟表的辅助数字盘数字颜色 |
-| clock.outerCircle | Object | √ |  |  | 钟表的外圆边框样式 |
-| clock.outerCircle.show | Bool | √ | true |  | 是否显示钟表的外圆边框 |
-| clock.outerCircle.lineStyle | Object | √ |  |  | 钟表的外圆边框样式 |
-| clock.outerCircle.lineStyle.stroke | String | √ | \#5a9cc7 | 支持CSS3中颜色的参数值，包括Color Name\(颜色名称\)、HEX、RGB、RGBA、HSL、HSLA、transparent | 钟表的外圆边框颜色 |
-| clock.middleCircle | Object | √ |  |  | 钟表的中间圆边框样式 |
-| clock.middleCircle.show | Bool | √ | true |  | 是否显示钟表的中间圆边框 |
-| clock.middleCircle.lineStyle | Object | √ |  |  | 钟表的中间圆边框样式 |
-| clock.middleCircle.lineStyle.stroke | String | √ | \#5a9cc7 | 支持CSS3中颜色的参数值，包括Color Name\(颜色名称\)、HEX、RGB、RGBA、HSL、HSLA、transparent | 钟表的中间圆边框颜色 |
-| clock.innerCircle | Object | √ |  |  | 钟表的内圆边框样式 |
-| clock.innerCircle.show | Bool | √ | true |  | 是否显示钟表的内圆边框 |
-| clock.innerCircle.lineStyle | Object | √ |  |  | 钟表的内圆边框样式 |
-| clock.innerCircle.lineStyle.stroke | String | √ | \#5a9cc7 | 支持CSS3中颜色的参数值，包括Color Name\(颜色名称\)、HEX、RGB、RGBA、HSL、HSLA、transparent | 钟表的内圆边框颜色 |
-| clock.hand | Object | √ |  |  | 钟表的指针样式 |
-| clock.hand.clockHourHand | Object | √ |  |  | 钟表的时针样式 |
-| clock.hand.clockHourHand.handStyle | Object | √ |  |  | 钟表时针的针柄样式 |
-| clock.hand.clockHourHand.handStyle.fill | String | √ | \#5a9cc7 | 支持CSS3中颜色的参数值，包括Color Name\(颜色名称\)、HEX、RGB、RGBA、HSL、HSLA、transparent | 钟表时针的针柄填充颜色 |
-| clock.hand.clockHourHand.handStyle.stroke | String | √ | \#5a9cc7 | 支持CSS3中颜色的参数值，包括Color Name\(颜色名称\)、HEX、RGB、RGBA、HSL、HSLA、transparent | 钟表时针的针柄边框颜色 |
-| clock.hand.clockHourHand.lineStyle | Object | √ | \#5a9cc7 | 支持CSS3中颜色的参数值，包括Color Name\(颜色名称\)、HEX、RGB、RGBA、HSL、HSLA、transparent | 钟表时针的其余边框颜色 |
-| clock.hand.clockMinuteHand | Object | √ |  |  | 钟表的分针样式 |
-| clock.hand.clockMinuteHand.handStyle | Object | √ |  |  | 钟表分针的针柄样式 |
-| clock.hand.clockMinuteHand.handStyle.fill | String | √ | \#5a9cc7 | 支持CSS3中颜色的参数值，包括Color Name\(颜色名称\)、HEX、RGB、RGBA、HSL、HSLA、transparent | 钟表分针的针柄填充颜色 |
-| clock.hand.clockMinuteHand.handStyle.stroke | String | √ | \#5a9cc7 | 支持CSS3中颜色的参数值，包括Color Name\(颜色名称\)、HEX、RGB、RGBA、HSL、HSLA、transparent | 钟表分针的针柄边框颜色 |
-| clock.hand.clockMinuteHand.lineStyle | Object | √ | \#5a9cc7 | 支持CSS3中颜色的参数值，包括Color Name\(颜色名称\)、HEX、RGB、RGBA、HSL、HSLA、transparent | 钟表分针的其余边框颜色 |
-| clock.hand.clockSecondHand | Object | √ |  |  | 钟表的秒针样式 |
-| clock.hand.clockSecondHand.handStyle | Object | √ |  |  | 钟表秒针的针柄样式 |
-| clock.hand.clockSecondHand.handStyle.fill | String | √ | \#5a9cc7 | 支持CSS3中颜色的参数值，包括Color Name\(颜色名称\)、HEX、RGB、RGBA、HSL、HSLA、transparent | 钟表秒针的针柄填充颜色 |
-| clock.hand.clockSecondHand.lineStyle | Object | √ | \#5a9cc7 | 支持CSS3中颜色的参数值，包括Color Name\(颜色名称\)、HEX、RGB、RGBA、HSL、HSLA、transparent | 钟表秒针的其余边框颜色 |
-| clock.aloneArc | Object | √ |  |  | 钟表的单独弧线装饰 |
-| clock.aloneArc.show | Bool | √ | true |  | 是否显示钟表的单独弧线 |
-| clock.aloneArc.lineStyle | Object | √ |  |  | 钟表的单独弧线样式 |
-| clock.aloneArc.lineStyle.fill | String | √ | \#5a9cc7 | 支持CSS3中颜色的参数值，包括Color Name\(颜色名称\)、HEX、RGB、RGBA、HSL、HSLA、transparent | 钟表的单独弧线填充颜色 |
-| clock.aloneArc.lineStyle.stroke | String | √ | \#5a9cc7 | 支持CSS3中颜色的参数值，包括Color Name\(颜色名称\)、HEX、RGB、RGBA、HSL、HSLA、transparent | 钟表的单独弧线边框颜色 |
-| clock.symmetryArc | Object | √ |  |  | 钟表的对称弧线装饰 |
-| clock.symmetryArc.show | Bool | √ | true |  | 是否显示钟表的对称弧线 |
-| clock.symmetryArc.lineStyle | Object | √ |  |  | 钟表的对称弧线样式 |
-| clock.symmetryArc.lineStyle.fill | String | √ | \#5a9cc7 | 支持CSS3中颜色的参数值，包括Color Name\(颜色名称\)、HEX、RGB、RGBA、HSL、HSLA、transparent | 钟表的对称弧线填充颜色 |
-| clock.symmetryArc.lineStyle.stroke | String | √ | \#5a9cc7 | 支持CSS3中颜色的参数值，包括Color Name\(颜色名称\)、HEX、RGB、RGBA、HSL、HSLA、transparent | 钟表的对称弧线边框颜色 |
 
 
 
