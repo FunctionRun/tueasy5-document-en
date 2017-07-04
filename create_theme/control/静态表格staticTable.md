@@ -2,6 +2,14 @@
 
 ---
 
+![](/assets/controls/StaticTable01.jpg)
+
+![](/assets/controls/StaticTable02.jpg)
+
+![](/assets/controls/StaticTable03.jpg)
+
+![](/assets/controls/StaticTable04.jpg)
+
 ## Code Model
 
 ### API

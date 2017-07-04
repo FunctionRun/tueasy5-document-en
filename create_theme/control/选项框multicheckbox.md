@@ -4,10 +4,21 @@
 
 ## User Configuration 
 
-![](/assets/MultiCheckBoxUser.jpg)
+![](/assets/controls/MultiCheckBox01.jpg)
+
+![](/assets/controls/MultiCheckBox02.jpg)
+
+![](/assets/controls/MultiCheckBox04.jpg)
+
+![](/assets/controls/MultiCheckBox05.jpg)
+
 
 
 ## Code Model
+
+![](/assets/controls/MultiCheckBox03.jpg)
+
+
 
 ### API
 

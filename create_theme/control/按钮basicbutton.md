@@ -4,9 +4,14 @@
 
 ## User Configuration 
 
-![](/assets/buttonUser.jpg)
+![](/assets/controls/button01.jpg)
+
+![](/assets/controls/button03.jpg)
+
+![](/assets/controls/button04.jpg)
 
 ## Code Model
+![](/assets/controls/button02.jpg)
 
 
 ### API

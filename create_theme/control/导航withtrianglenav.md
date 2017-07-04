@@ -6,7 +6,7 @@
 
 * Save the page before data binding
 
-![](/assets/withTriangleNav01.png)
+![](/assets/controls/withTriangleNav01.png)
 
 * The data for _withTriangleNav is text data. The data in the selected dimensions will be listed and the duplicate content are deleted.
 
@@ -14,17 +14,17 @@
 
 * After data binding, save the configuration, back to control editing page.
 
-![](/assets/withTriangleNav02.png)
+![](/assets/controls/withTriangleNav02.png)
 
 ## User Configuration
 
 * Click parameters editing button to enter the developing mode configuration, click the setting button to enter the user configuration panel
 
-![](/assets/withTriangleNav03.png)
+![](/assets/controls/withTriangleNav03.png)
 
 * The Control configuration of unselected status: text, background, border.
 
-![](/assets/withTriangleNav04.png)
+![](/assets/controls/withTriangleNav04.png)
 
 > Note：
 >
@@ -34,7 +34,7 @@
 
 * Configuration of the selected status
 
-![](/assets/withTriangleNav05.png)
+![](/assets/controls/withTriangleNav05.png)
 
 > Note: Triangle length configuration (6) refers to the length set of the leg of isosceles triangle, the value can change the Triangle.
 

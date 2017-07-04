@@ -1,6 +1,13 @@
 # 动态表格\_Table
 
 ---
+![](/assets/controls/Table01.png)
+
+![](/assets/controls/Table02.png)
+
+![](/assets/controls/Table03.png)
+
+![](/assets/controls/Table04.png)
 
 ## Code Model
 
