@@ -4,19 +4,19 @@
 
 ## User Configuration 
 
-![](/assets/controls/MultiCheckBox01.jpg)
+![](/assets/controls/MultiCheckBox01.png)
 
-![](/assets/controls/MultiCheckBox02.jpg)
+![](/assets/controls/MultiCheckBox02.png)
 
-![](/assets/controls/MultiCheckBox04.jpg)
+![](/assets/controls/MultiCheckBox04.png)
 
-![](/assets/controls/MultiCheckBox05.jpg)
+![](/assets/controls/MultiCheckBox05.png)
 
 
 
 ## Code Model
 
-![](/assets/controls/MultiCheckBox03.jpg)
+![](/assets/controls/MultiCheckBox03.png)
 
 
 

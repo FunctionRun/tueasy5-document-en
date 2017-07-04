@@ -2,13 +2,13 @@
 
 ---
 
-![](/assets/controls/ScanningRadar01.jpg)
+![](/assets/controls/ScanningRadar01.png)
 
-![](/assets/controls/ScanningRadar03.jpg)
+![](/assets/controls/ScanningRadar03.png)
 
 ## Code Model
 
-![](/assets/controls/ScanningRadar02.jpg)
+![](/assets/controls/ScanningRadar02.png)
 
 
 

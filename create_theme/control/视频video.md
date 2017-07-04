@@ -2,11 +2,11 @@
 
 ---
 
-![](/assets/controls/Video01.jpg)
+![](/assets/controls/Video01.png)
 
 ## Code Model
 
-![](/assets/controls/Video02.jpg)
+![](/assets/controls/Video02.png)
 
 ### API
 

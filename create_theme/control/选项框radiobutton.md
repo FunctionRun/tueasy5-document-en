@@ -5,19 +5,19 @@
 ## User Configuration 
 
 
-![](/assets/controls/Radiobutton01.jpg)
+![](/assets/controls/Radiobutton01.png)
 
-![](/assets/controls/Radiobutton02.jpg)
+![](/assets/controls/Radiobutton02.png)
 
-![](/assets/controls/Radiobutton04.jpg)
+![](/assets/controls/Radiobutton04.png)
 
-![](/assets/controls/Radiobutton05.jpg)
+![](/assets/controls/Radiobutton05.png)
 
 
 
 ## Code Model
 
-![](/assets/controls/Radiobutton03.jpg)
+![](/assets/controls/Radiobutton03.png)
 
 ### API
 ```

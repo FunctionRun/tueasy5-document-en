@@ -1,9 +1,7 @@
 # 外接\_iframe 
 
 ---
-![](/assets/controls/Iframe01.png)
 
-![](/assets/controls/Iframe02.png)
 
 ![](/assets/controls/Iframe03.png)
 

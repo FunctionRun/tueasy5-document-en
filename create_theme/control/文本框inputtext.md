@@ -6,16 +6,16 @@
 ## User Configuration 
 
 The input text box has two parts, labels and text box.User can edit mode panel at the bottom of the users to input text box label and input text color, text size, border style of quick edit.
-![](/assets/controls/Inputtext01.jpg)
-![](/assets/controls/Inputtext03.jpg)
-![](/assets/controls/Inputtext04.jpg)
+![](/assets/controls/Inputtext01.png)
+![](/assets/controls/Inputtext03.png)
+![](/assets/controls/Inputtext04.png)
 
 
 
 
 ## Code Model
 
-![](/assets/controls/Inputtext02.jpg)
+![](/assets/controls/Inputtext02.png)
 
 
 ### API

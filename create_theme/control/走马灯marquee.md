@@ -2,11 +2,11 @@
 
 ---
 
-![](/assets/controls/Marquee01.jpg)
+![](/assets/controls/Marquee01.png)
 
 ## Code Model
 
-![](/assets/controls/Marquee02.jpg)
+![](/assets/controls/Marquee02.png)
 
 ### API
 

@@ -2,19 +2,19 @@
 
 ---
 
-![](/assets/controls/TimeLine01.jpg)
+![](/assets/controls/TimeLine01.png)
 
-![](/assets/controls/TimeLine03.jpg)
+![](/assets/controls/TimeLine03.png)
 
-![](/assets/controls/TimeLine04.jpg)
+![](/assets/controls/TimeLine04.png)
 
-![](/assets/controls/TimeLine05.jpg)
+![](/assets/controls/TimeLine05.png)
 ## User Configuration 
 
 
 ## Code Model
 
-![](/assets/controls/TimeLine02.jpg)
+![](/assets/controls/TimeLine02.png)
 
 ```
 {

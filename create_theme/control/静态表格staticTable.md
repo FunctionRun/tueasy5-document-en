@@ -2,13 +2,13 @@
 
 ---
 
-![](/assets/controls/StaticTable01.jpg)
+![](/assets/controls/StaticTable01.png)
 
-![](/assets/controls/StaticTable02.jpg)
+![](/assets/controls/StaticTable02.png)
 
-![](/assets/controls/StaticTable03.jpg)
+![](/assets/controls/StaticTable03.png)
 
-![](/assets/controls/StaticTable04.jpg)
+![](/assets/controls/StaticTable04.png)
 
 ## Code Model
 

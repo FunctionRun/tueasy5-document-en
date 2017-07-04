@@ -1,20 +1,20 @@
 # 菜单\_TreeMenu ![](/assets/TreeMenu.png)
 
 ---
-![](/assets/controls/TreeMenu01.jpg)
+![](/assets/controls/TreeMenu01.png)
 
 
-![](/assets/controls/TreeMenu03.jpg)
+![](/assets/controls/TreeMenu03.png)
 
-![](/assets/controls/TreeMenu04.jpg)
+![](/assets/controls/TreeMenu04.png)
 
-![](/assets/controls/TreeMenu05.jpg)
+![](/assets/controls/TreeMenu05.png)
 
-![](/assets/controls/TreeMenu06.jpg)
+![](/assets/controls/TreeMenu06.png)
 
 ## Code Model
 
-![](/assets/controls/TreeMenu02.jpg)
+![](/assets/controls/TreeMenu02.png)
 
 ### API
 
