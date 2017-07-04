@@ -10,11 +10,11 @@
 
 ![](/assets/controls/TreeMenu05.png)
 
-![](/assets/controls/TreeMenu06.png)
+
 
 ## Code Model
+![](/assets/controls/TreeMenu06.png)
 
-![](/assets/controls/TreeMenu02.png)
 
 ### API
 

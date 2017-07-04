@@ -8,7 +8,7 @@
 
 ![](/assets/controls/StaticTable03.png)
 
-![](/assets/controls/StaticTable04.png)
+
 
 ## Code Model
 
