@@ -36,7 +36,7 @@
     * [时间\(PointerClock\)](create_theme\control\时间pointerclock.md)
     * [视频\(Video\)](create_theme\control\视频video.md)
     * [图片\(Picture\)](create_theme\control\图片picture.md)
-    * [表格\(Table\)](create_theme\control\表格table.md)
+    * [表格\(Table\)](create_theme\control\动态表格table.md)
     * [菜单\(TreeMenu\)](create_theme\control\菜单treemenu.md)
     * [雷达\(ScanningRadar\)](create_theme\control\雷达scanningradar.md)
   * [Graphical interaction](create_theme\关联互动.md)
