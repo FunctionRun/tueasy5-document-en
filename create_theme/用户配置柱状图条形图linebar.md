@@ -19,7 +19,7 @@ Click parameters editing button to enter the developer mode configuration, click
 >
 > Variable size – minimum; Variable size – maximum; emphasize size;
 
-![](/assets/lineBar02.jpg)
+![](/assets/lineBar02.png)
 
 ##### Chart Boundary Configuration\(null\)
 
@@ -44,4 +44,8 @@ Click parameters editing button to enter the developer mode configuration, click
 > Label configuration: its Location, size of the label text, font, color, and style can be configured.
 
 ![](/assets/lineBar04.png)
+
+![](/assets/lineBar05.png)
+
+
 
