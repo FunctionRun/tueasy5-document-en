@@ -2,6 +2,16 @@
 
 ---
 
+![](/assets/controls/LinesNav01.png)
+
+![](/assets/controls/LinesNav02.png)
+
+![](/assets/controls/LinesNav03.png)
+
+![](/assets/controls/LinesNav04.png)
+
+![](/assets/controls/LinesNav05.png)
+
 
 ## Code Model
 

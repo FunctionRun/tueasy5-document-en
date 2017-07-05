@@ -2,7 +2,16 @@
 
 ---
 
+![](/assets/controls/PointerClock01.png)
+
+![](/assets/controls/PointerClock03.png)
+
+![](/assets/controls/PointerClock04.png)
+
+
 ## Code Model
+
+![](/assets/controls/PointerClock02.png)
 
 ### API
 

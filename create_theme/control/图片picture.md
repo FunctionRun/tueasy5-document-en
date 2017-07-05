@@ -2,6 +2,18 @@
 
 ---
 
+![](/assets/controls/picture01.png)
+
+![](/assets/controls/picture02.png)
+
+![](/assets/controls/picture03.png)
+
+![](/assets/controls/picture04.png)
+
+![](/assets/controls/picture05.png)
+
+![](/assets/controls/picture06.png)
+
 ## Code Model
 
 ### API
