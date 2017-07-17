@@ -1,4 +1,4 @@
-# 图片\_Picture ![](/assets/Picture-icon.png)
+# Picture ![](/assets/Picture-icon.png)
 
 ---
 

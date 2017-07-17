@@ -1,4 +1,4 @@
-# 雷达\_ScanningRadar ![](/assets/ScanningRadar.png)
+# ScanningRadar ![](/assets/ScanningRadar.png)
 
 ---
 

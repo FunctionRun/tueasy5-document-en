@@ -1,4 +1,4 @@
-# 视频\_Video ![](/assets/Video.png)
+# Video ![](/assets/Video.png)
 
 ---
 

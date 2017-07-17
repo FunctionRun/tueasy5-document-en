@@ -1,4 +1,4 @@
-# 时间\_PionterClock ![](/assets/PointerClock.png)
+# PionterClock ![](/assets/PointerClock.png)
 
 ---
 

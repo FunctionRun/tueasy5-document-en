@@ -1,4 +1,4 @@
-# 导航\_withTriangleNav ![](/assets/withTriangleNav.png)
+# withTriangleNav ![](/assets/withTriangleNav.png)
 
 ---
 

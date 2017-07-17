@@ -1,4 +1,4 @@
-# 菜单\_TreeMenu ![](/assets/TreeMenu.png)
+# TreeMenu ![](/assets/TreeMenu.png)
 
 ---
 ![](/assets/controls/TreeMenu01.png)
