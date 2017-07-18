@@ -1,4 +1,4 @@
-# 时间\_MultiCalendar ![](/assets/MultiCalendar.png)
+# MultiCalendar ![](/assets/MultiCalendar.png)
 
 ---
 ![](/assets/controls/MultiCalendar01.png)

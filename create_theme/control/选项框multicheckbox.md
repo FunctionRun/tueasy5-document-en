@@ -1,4 +1,4 @@
-# 选项框\_MultiCheckBox ![](/assets/MultiCheckBox.png)
+# MultiCheckBox ![](/assets/MultiCheckBox.png)
 
 ---
 

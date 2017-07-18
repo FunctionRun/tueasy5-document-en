@@ -1,4 +1,4 @@
-# 动态表格\_Table
+# Table
 
 ---
 ![](/assets/controls/Table01.png)

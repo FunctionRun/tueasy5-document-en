@@ -1,4 +1,4 @@
-# 走马灯\_Marquee ![](/assets/Marquee.png)
+# Marquee ![](/assets/Marquee.png)
 
 ---
 

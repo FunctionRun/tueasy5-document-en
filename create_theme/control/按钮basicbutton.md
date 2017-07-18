@@ -1,4 +1,4 @@
-# 按钮\_basicButton ![](/assets/basicButton.png)
+# basicButton ![](/assets/basicButton.png)
 
 ---
 

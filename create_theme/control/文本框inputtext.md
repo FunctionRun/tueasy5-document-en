@@ -1,4 +1,4 @@
-# 文本框\_Inputtext ![](/assets/inputtext.png)
+# Inputtext ![](/assets/inputtext.png)
 
 ---
 

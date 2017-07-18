@@ -1,4 +1,4 @@
-# 导航\_linesNav ![](/assets/linesNav.png)
+# linesNav ![](/assets/linesNav.png)
 
 ---
 
